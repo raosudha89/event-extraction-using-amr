@@ -1,0 +1,31 @@
+T23	Binding 76 85	occupying
+T24	Positive_regulation 114 123	promoting
+T25	Binding 132 143	recruitment
+T26	Binding 163 175	displacement
+T27	Negative_regulation 320 332	interference
+T28	Gene_expression 545 555	expression
+E1	Binding:T23 Theme:T1
+E10	Gene_expression:T28 Theme:T14
+E11	Gene_expression:T28 Theme:T15
+E12	Gene_expression:T28 Theme:T16
+E13	Gene_expression:T28 Theme:T17
+E2-0	Positive_regulation:T24 Theme:E3
+E2-1	Positive_regulation:T24 Cause:T1
+E3	Binding:T25 Theme:T3
+E4-0-0	Positive_regulation:T24 Theme:E5-0
+E4-0-1	Positive_regulation:T24 Theme:E5-1
+E5-0	Binding:T26 Theme:T3
+E5-1	Binding:T26 Theme:T4
+E6	Negative_regulation:T27 Theme:T8
+E7	Gene_expression:T28 Theme:T11
+E8	Gene_expression:T28 Theme:T12
+E9	Gene_expression:T28 Theme:T13
+M1-0	Negation E5-0
+M1-1	Negation E5-1
+M2	Speculation E7
+M3	Speculation E8
+M4	Speculation E9
+M5	Speculation E10
+M6	Speculation E11
+M7	Speculation E12
+M8	Speculation E13

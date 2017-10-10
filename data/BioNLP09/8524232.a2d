@@ -1,0 +1,36 @@
+*	Equiv T13 T14
+T26	Binding 44 49	binds
+T27	Entity 57 86	transcription initiation site
+T28	Binding 375 380	binds
+T29	Entity 411 440	transcription initiation site
+T30	Negative_regulation 465 475	repressing
+T31	Transcription 480 493	transcription
+T32	Gene_expression 572 576	have
+T33	Binding 633 643	recognizes
+T34	Binding 1158 1189	associates as stable homodimers
+T35	Binding 1229 1236	binding
+T36	Positive_regulation 1498 1507	necessary
+T37	Entity 1512 1519	nuclear
+T38	Localization 1520 1529	targeting
+E1-0	Binding:T26 Theme:T1
+E1-1	Binding:T26 Theme:T2
+E1-2	Binding:T26 Site:T27
+E10	Binding:T35 Theme:T21
+E11-0	Positive_regulation:T36 Theme:E12-0
+E12-0	Localization:T38 Theme:T22
+E12-1	Localization:T38 AtLoc:T37
+E13-0	Localization:T38 Theme:T23
+E2-0	Binding:T28 Theme:T4
+E2-1	Binding:T28 Theme:T5
+E2-2	Binding:T28 Site:T29
+E3-0	Negative_regulation:T30 Theme:E4
+E3-1-0	Negative_regulation:T30 Cause:E2-0
+E3-1-1	Negative_regulation:T30 Cause:E2-1
+E4	Transcription:T31 Theme:T5
+E5	Gene_expression:T32 Theme:T6
+E6	Binding:T33 Theme:T7
+E7	Binding:T34 Theme:T21
+E8	Binding:T34 Theme:T20
+E9	Binding:T35 Theme:T20
+M1	Negation E5
+M2-0	Speculation E11-0

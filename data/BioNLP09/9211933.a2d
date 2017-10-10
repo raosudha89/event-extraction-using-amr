@@ -1,0 +1,40 @@
+*	Equiv T4 T5
+T21	Positive_regulation 19 28	induction
+T22	Entity 64 72	promoter
+T23	Regulation 99 109	Regulation
+T24	Gene_expression 165 177	Biosynthesis
+T25	Regulation 297 301	role
+T26	Positive_regulation 376 385	induction
+T27	Entity 409 417	promoter
+T28	Positive_regulation 649 657	required
+T29	Transcription 670 683	transcription
+T30	Positive_regulation 706 720	in response to
+T31	Binding 1005 1009	bind
+T32	Positive_regulation 1043 1052	increased
+T33	Binding 1057 1064	binding
+T34	Binding 1137 1144	binding
+T35	Positive_regulation 1670 1679	induction
+T36	Entity 1697 1705	promoter
+T37	Regulation 1709 1717	mediated
+E1-0	Positive_regulation:T21 Theme:T1
+E1-1	Positive_regulation:T21 Site:T22
+E10	Binding:T31 Theme:T11
+E11	Positive_regulation:T32 Theme:E12
+E12	Binding:T33 Theme:T12
+E13	Binding:T34 Theme:T16
+E14	Binding:T34 Theme:T14
+E15	Binding:T34 Theme:T15
+E16-0	Positive_regulation:T35 Theme:T20
+E16-1	Positive_regulation:T35 Site:T36
+E17-0	Regulation:T37 Theme:E16-0
+E2-1	Regulation:T23 Cause:T3
+E3-0-0	Regulation:T23 Theme:E1-0
+E3-1	Regulation:T23 Cause:T2
+E4	Gene_expression:T24 Theme:T5
+E5-0	Regulation:T25 Theme:E6-0
+E6-0	Positive_regulation:T26 Theme:T6
+E6-1	Positive_regulation:T26 Site:T27
+E7	Positive_regulation:T28 Theme:E9
+E8	Transcription:T29 Theme:T8
+E9	Positive_regulation:T30 Theme:E8
+M1-0	Speculation E5-0

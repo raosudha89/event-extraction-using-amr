@@ -1,0 +1,7 @@
+T6	Transcription 620 630	mRNA level
+T7	Entity 1113 1122	cytoplasm
+T8	Localization 1123 1132	localized
+E1	Transcription:T6 Theme:T3
+E2-0	Localization:T8 Theme:T5
+E2-1	Localization:T8 ToLoc:T7
+M1	Speculation E1

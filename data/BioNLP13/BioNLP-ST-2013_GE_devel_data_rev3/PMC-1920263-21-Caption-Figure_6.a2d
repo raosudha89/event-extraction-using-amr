@@ -1,0 +1,6 @@
+T21	Binding 12 16	bind
+T22	Entity 24 30	GC-box
+E1-0	Binding:T21 Theme:T1
+E1-2	Binding:T21 Site:T22
+E2-0	Binding:T21 Theme:T2
+E2-1	Binding:T21 Theme:T3

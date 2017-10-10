@@ -1,0 +1,37 @@
+T27	Binding 34 38	bind
+T28	Entity 46 52	GC-box
+T29	Entity 120 126	GC-box
+T30	Binding 127 152	represents a binding site
+T31	Binding 615 625	recognized
+T32	Entity 1839 1845	GC-box
+T33	Binding 1879 1903	serves as a binding site
+T34	Binding 1929 1936	binding
+T35	Entity 2002 2010	promoter
+T36	Gene_expression 2430 2440	expression
+T37	Binding 2531 2538	binding
+T38	Entity 2598 2606	promoter
+E1-0	Binding:T27 Theme:T1
+E1-2	Binding:T27 Site:T28
+E10	Gene_expression:T36 Theme:T23
+E11-0	Binding:T37 Theme:T24
+E11-1	Binding:T37 Theme:T26
+E12-0	Binding:T37 Theme:T25
+E12-2	Binding:T37 Site:T38
+E2-0	Binding:T27 Theme:T2
+E2-1	Binding:T27 Theme:T3
+E3-1	Binding:T30 Theme:T4
+E3-2	Binding:T30 Site:T29
+E4-0	Binding:T30 Theme:T3
+E4-1	Binding:T30 Theme:T5
+E5	Binding:T31 Theme:T7
+E6-1	Binding:T33 Theme:T13
+E7-0	Binding:T33 Theme:T12
+E7-1	Binding:T33 Theme:T14
+E7-2	Binding:T33 Site:T32
+E8-0	Binding:T34 Theme:T15
+E8-2	Binding:T34 Site:T35
+E9-0	Binding:T34 Theme:T16
+E9-1	Binding:T34 Theme:T17
+M1-0	Speculation E4-0
+M1-1	Speculation E3-1
+M2-1	Speculation E4-1

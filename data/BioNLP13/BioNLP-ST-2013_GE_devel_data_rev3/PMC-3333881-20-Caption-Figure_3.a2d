@@ -1,0 +1,15 @@
+T32	Negative_regulation 4 12	relieves
+T33	Negative_regulation 40 50	inhibition
+T34	Binding 1054 1061	binding
+T35	Negative_regulation 1323 1334	competition
+T36	Binding 1342 1349	binding
+E1-0-0	Negative_regulation:T32 Theme:E2-0
+E1-1	Negative_regulation:T32 Cause:T1
+E2-0	Negative_regulation:T33 Theme:T2
+E2-1	Negative_regulation:T33 Cause:T3
+E3	Binding:T34 Theme:T18
+E4-0	Negative_regulation:T35 Theme:E5
+E4-1	Negative_regulation:T35 Cause:T20
+E5	Binding:T36 Theme:T19
+M1	Speculation E3
+M2-0	Speculation E4-0

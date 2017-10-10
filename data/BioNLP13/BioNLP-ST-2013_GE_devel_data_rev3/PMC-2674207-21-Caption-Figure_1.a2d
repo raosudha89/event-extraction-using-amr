@@ -1,0 +1,35 @@
+T12	Negative_regulation 71 79	inhibits
+T13	Entity 87 94	nuclear
+T14	Localization 95 101	import
+T15	Localization 158 171	translocation
+T16	Entity 208 215	nucleus
+T17	Entity 439 446	nuclear
+T18	Localization 447 459	localization
+T19	Positive_regulation 470 477	induced
+T20	Negative_regulation 918 926	inhibits
+T21	Transcription 941 956	mRNA expression
+T22	Regulation 969 981	costimulated
+T23	Negative_regulation 1237 1244	reduces
+T24	Positive_regulation 1274 1284	stimulated
+T25	Binding 1295 1304	associate
+T26	Entity 1326 1334	promoter
+E1-0	Negative_regulation:T12 Theme:E2-0
+E10	Regulation:T22 Theme:T8
+E11	Regulation:T22 Theme:T9
+E12-0	Negative_regulation:T23 Theme:E13-0
+E12-1	Negative_regulation:T23 Theme:E13-1
+E13-0	Binding:T25 Theme:T10
+E13-1	Binding:T25 Theme:T11
+E13-2	Binding:T25 Site:T26
+E14	Positive_regulation:T24 Theme:T10
+E2-0	Localization:T14 Theme:T1
+E2-1	Localization:T14 ToLoc:T13
+E3-0	Localization:T15 Theme:T2
+E3-1	Localization:T15 ToLoc:T16
+E4-0	Localization:T18 Theme:T4
+E4-1	Localization:T18 ToLoc:T17
+E5-0	Positive_regulation:T19 Theme:E4-0
+E6	Negative_regulation:T20 Theme:E7
+E7	Transcription:T21 Theme:T6
+E8	Negative_regulation:T20 Theme:E9
+E9	Transcription:T21 Theme:T7

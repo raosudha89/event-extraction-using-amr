@@ -1,0 +1,32 @@
+T13	Positive_regulation 399 407	activate
+T14	Phosphorylation 436 451	Phosphorylation
+T15	Positive_regulation 538 540	by
+T16	Positive_regulation 555 563	triggers
+T17	Protein_catabolism 564 587	proteolytic degradation
+T18	Positive_regulation 1066 1080	overexpression
+T19	Gene_expression 1066 1080	overexpression
+T20	Positive_regulation 1482 1492	activation
+E1	Positive_regulation:T13 Theme:T4
+E11-1	Positive_regulation:T15 Cause:T4
+E13-0	Positive_regulation:T16 Theme:E20
+E13-1-0	Positive_regulation:T16 Cause:E9-0
+E14-1-0	Positive_regulation:T16 Cause:E7-0
+E15-0	Positive_regulation:T16 Theme:E19
+E16-1-0	Positive_regulation:T16 Cause:E6-0
+E17-0	Positive_regulation:T16 Theme:E18
+E18	Protein_catabolism:T17 Theme:T7
+E19	Protein_catabolism:T17 Theme:T5
+E2	Positive_regulation:T13 Theme:T3
+E20	Protein_catabolism:T17 Theme:T6
+E21	Positive_regulation:T18 Theme:E22
+E22	Gene_expression:T19 Theme:T9
+E23	Gene_expression:T19 Theme:T8
+E24	Positive_regulation:T18 Theme:E23
+E25	Positive_regulation:T20 Theme:T12
+E3	Phosphorylation:T14 Theme:T5
+E4	Phosphorylation:T14 Theme:T7
+E5	Phosphorylation:T14 Theme:T6
+E6-0	Positive_regulation:T15 Theme:E3
+E7-0	Positive_regulation:T15 Theme:E4
+E7-1	Positive_regulation:T15 Cause:T3
+E9-0	Positive_regulation:T15 Theme:E5

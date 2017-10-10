@@ -1,0 +1,81 @@
+T39	Binding 16 20	bind
+T40	Entity 34 42	promoter
+T41	Gene_expression 381 392	transfected
+T42	Binding 546 553	binding
+T43	Entity 567 575	promoter
+T44	Entity 690 702	binding site
+T45	Binding 716 720	bind
+T46	Positive_regulation 857 868	transfected
+T47	Gene_expression 889 899	expression
+T48	Entity 932 940	promoter
+T49	Binding 1017 1022	bound
+T50	Binding 1136 1143	binding
+T51	Entity 1223 1236	binding sites
+T52	Binding 1259 1266	binding
+T53	Binding 1411 1418	binding
+T54	Entity 1426 1430	-333
+T55	Entity 1435 1445	-287 sites
+T56	Binding 1465 1472	binding
+T57	Entity 1526 1534	-53 site
+T58	Binding 1601 1608	binding
+T59	Binding 1644 1651	binding
+T60	Entity 1670 1683	binding sites
+T61	Binding 1827 1834	binding
+T62	Entity 1892 1900	promoter
+T63	Positive_regulation 2058 2066	inducing
+T64	Binding 2222 2249	immunoprecipitated together
+T65	Entity 2265 2273	promoter
+E1-0	Binding:T39 Theme:T1
+E1-2	Binding:T39 Site:T40
+E10	Positive_regulation:T46 Theme:E11
+E11	Gene_expression:T47 Theme:T13
+E12-1	Binding:T49 Theme:T15
+E13-0	Binding:T49 Theme:T14
+E13-1	Binding:T49 Theme:T16
+E13-2	Binding:T49 Site:T48
+E14-0	Binding:T50 Theme:T14
+E14-1	Binding:T50 Theme:T18
+E15-1	Binding:T50 Theme:T19
+E15-2	Binding:T50 Site:T51
+E16	Binding:T52 Theme:T18
+E17	Binding:T52 Theme:T19
+E18-1	Binding:T53 Site:T54
+E19-0	Binding:T53 Theme:T20
+E19-1	Binding:T53 Site:T55
+E2-0	Binding:T39 Theme:T2
+E2-1	Binding:T39 Theme:T3
+E20-0	Binding:T56 Theme:T20
+E20-1	Binding:T56 Site:T57
+E21	Binding:T58 Theme:T21
+E22	Binding:T58 Theme:T22
+E23-0	Binding:T59 Theme:T20
+E23-1	Binding:T59 Site:T60
+E24-0	Binding:T61 Theme:T23
+E25-0	Binding:T61 Theme:T24
+E25-1	Binding:T61 Theme:T26
+E26-0	Binding:T61 Theme:T25
+E26-2	Binding:T61 Site:T62
+E27-1	Positive_regulation:T63 Cause:T28
+E28-0	Positive_regulation:T63 Theme:T33
+E28-1	Positive_regulation:T63 Cause:T32
+E29-0	Binding:T64 Theme:T35
+E29-1	Binding:T64 Theme:T38
+E3	Gene_expression:T41 Theme:T6
+E30-0	Binding:T64 Theme:T36
+E31-0	Binding:T64 Theme:T37
+E31-2	Binding:T64 Site:T65
+E4	Gene_expression:T41 Theme:T7
+E5-0	Binding:T42 Theme:T8
+E5-1	Binding:T42 Theme:T9
+E5-2	Binding:T42 Site:T43
+E6-1	Binding:T45 Theme:T10
+E7-0	Binding:T45 Theme:T9
+E7-1	Binding:T45 Theme:T11
+E7-2	Binding:T45 Site:T44
+E8	Positive_regulation:T46 Theme:E9
+E9	Gene_expression:T47 Theme:T12
+M1-0	Speculation E7-0
+M1-1	Speculation E6-1
+M2-1	Speculation E7-1
+M3	Negation E16
+M4	Negation E17

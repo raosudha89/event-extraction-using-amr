@@ -1,0 +1,63 @@
+T29	Positive_regulation 6 13	induces
+T30	Positive_regulation 14 26	upregulation
+T31	Positive_regulation 79 86	induced
+T32	Phosphorylation 87 102	phosphorylation
+T33	Positive_regulation 603 615	upregulation
+T34	Positive_regulation 669 682	up-regulation
+T35	Positive_regulation 755 767	upregulation
+T36	Regulation 875 882	changes
+T37	Positive_regulation 952 962	detectable
+T38	Positive_regulation 1037 1044	induced
+T39	Positive_regulation 1045 1057	upregulation
+T40	Positive_regulation 1079 1089	correlated
+T41	Positive_regulation 1095 1107	upregulation
+T42	Positive_regulation 1136 1144	increase
+T43	Positive_regulation 1200 1209	increased
+T44	Positive_regulation 1265 1277	upregulation
+T45	Regulation 1375 1381	change
+T46	Gene_expression 1389 1396	amounts
+T47	Negative_regulation 1472 1477	block
+E1-0	Positive_regulation:T29 Theme:E2
+E1-1	Positive_regulation:T29 Cause:T1
+E10-0	Positive_regulation:T34 Theme:T12
+E10-1	Positive_regulation:T34 Cause:T13
+E11-0	Positive_regulation:T35 Theme:T12
+E11-1	Positive_regulation:T35 Cause:T13
+E12-0	Regulation:T36 Theme:T14
+E13-0	Regulation:T36 Theme:T15
+E13-1	Regulation:T36 Cause:T13
+E14-0	Positive_regulation:T37 Theme:T16
+E14-1	Positive_regulation:T37 Cause:T13
+E15-0	Positive_regulation:T38 Theme:E16
+E15-1	Positive_regulation:T38 Cause:T17
+E16	Positive_regulation:T39 Theme:T18
+E17-0	Positive_regulation:T40 Theme:E18
+E17-1	Positive_regulation:T40 Cause:E16
+E18	Positive_regulation:T41 Theme:T19
+E19-0	Positive_regulation:T42 Theme:T20
+E19-1	Positive_regulation:T42 Cause:T21
+E2	Positive_regulation:T30 Theme:T2
+E20-0	Positive_regulation:T43 Theme:T20
+E20-1	Positive_regulation:T43 Cause:T21
+E21-0	Positive_regulation:T44 Theme:T20
+E21-1	Positive_regulation:T44 Cause:T21
+E22-0	Regulation:T45 Theme:E23
+E22-1	Regulation:T45 Cause:T21
+E23	Gene_expression:T46 Theme:T22
+E24-0	Regulation:T45 Theme:E25
+E25	Gene_expression:T46 Theme:T23
+E26	Negative_regulation:T47 Theme:T24
+E3-0	Positive_regulation:T31 Theme:E4
+E4	Phosphorylation:T32 Theme:T4
+E5-0	Positive_regulation:T31 Theme:E6
+E6	Phosphorylation:T32 Theme:T5
+E7-0	Positive_regulation:T31 Theme:E8
+E7-1	Positive_regulation:T31 Cause:T3
+E8	Phosphorylation:T32 Theme:T6
+E9-0	Positive_regulation:T33 Theme:T10
+E9-1	Positive_regulation:T33 Cause:T11
+M1-0	Negation E12-0
+M2-0	Negation E13-0
+M3-0	Negation E14-0
+M4-0	Negation E22-0
+M5-0	Negation E24-0

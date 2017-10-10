@@ -1,0 +1,98 @@
+T14	Regulation 193 201	affected
+T15	Protein_modification 219 248	post-translational mechanisms
+T16	Phosphorylation 272 287	phosphorylation
+T17	Positive_regulation 378 385	induced
+T18	Phosphorylation 390 405	phosphorylation
+T19	Entity 409 415	Ser276
+T20	Entity 424 430	Ser536
+T21	Negative_regulation 515 522	reduced
+T22	Entity 523 529	Ser276
+T23	Phosphorylation 530 545	phosphorylation
+T24	Entity 555 561	Ser536
+T25	Phosphorylation 563 578	phosphorylation
+T26	Positive_regulation 637 647	stimulated
+T27	Phosphorylation 662 677	phosphorylation
+T28	Entity 689 695	Ser276
+T29	Regulation 728 737	dependent
+T30	Regulation 787 796	regulated
+T31	Entity 797 803	Ser276
+T32	Phosphorylation 804 819	phosphorylation
+T33	Entity 828 834	Ser536
+T34	Positive_regulation 888 899	stimulation
+T35	Localization 967 975	location
+T36	Phosphorylation 979 993	phosphorylated
+T37	Phosphorylation 1032 1046	phosphorylated
+T38	Localization 1065 1072	located
+T39	Entity 1076 1112	both cytosolic and nuclear fractions
+T40	Phosphorylation 1118 1132	phosphorylated
+T41	Entity 1133 1139	Ser276
+T42	Entity 1144 1150	Ser536
+T43	Localization 1179 1186	located
+T44	Entity 1190 1197	nuclear
+T45	Phosphorylation 1266 1281	phosphorylation
+T46	Entity 1285 1291	Ser536
+T47	Negative_regulation 1356 1363	reduced
+T48	Positive_regulation 1370 1377	induced
+T49	Entity 1378 1384	Ser276
+T50	Phosphorylation 1385 1400	phosphorylation
+T51	Positive_regulation 1475 1482	induced
+T52	Entity 1497 1503	Ser536
+T53	Phosphorylation 1504 1519	phosphorylation
+T54	Regulation 1547 1557	regardless
+T13	Positive_regulation 1616 1623	induced
+T55	Entity 1624 1630	Ser276
+T56	Entity 1635 1641	Ser536
+T57	Regulation 1646 1655	regulated
+E1	Regulation:T14 Theme:E2
+E10-0	Negative_regulation:T21 Theme:E11-0
+E11-0	Phosphorylation:T25 Theme:T4
+E11-1	Phosphorylation:T25 Site:T24
+E12-0	Positive_regulation:T26 Theme:E13-0
+E13-0	Phosphorylation:T27 Theme:T5
+E13-1	Phosphorylation:T27 Site:T28
+E14-0	Regulation:T29 Theme:E12-0
+E15-0	Regulation:T30 Theme:E16-0
+E16-0	Phosphorylation:T32 Theme:T5
+E16-1	Phosphorylation:T32 Site:T31
+E18-1	Phosphorylation:T32 Site:T33
+E19-0	Positive_regulation:T34 Theme:E15-0
+E2	Protein_modification:T15 Theme:T2
+E21	Localization:T35 Theme:T6
+E22	Phosphorylation:T36 Theme:T6
+E23	Phosphorylation:T37 Theme:T7
+E24-0	Localization:T38 Theme:T7
+E24-1	Localization:T38 ToLoc:T39
+E25-0	Phosphorylation:T40 Theme:T8
+E25-1	Phosphorylation:T40 Site:T41
+E26-1	Phosphorylation:T40 Site:T42
+E27-0	Localization:T43 Theme:T8
+E27-1	Localization:T43 ToLoc:T44
+E28-0	Phosphorylation:T45 Theme:T9
+E28-1	Phosphorylation:T45 Site:T46
+E29-0	Negative_regulation:T47 Theme:E30-0
+E3	Phosphorylation:T16 Theme:T3
+E30-0	Positive_regulation:T48 Theme:E31-0
+E31-0	Phosphorylation:T50 Theme:T10
+E31-1	Phosphorylation:T50 Site:T49
+E32-0	Positive_regulation:T51 Theme:E33-0
+E33-0	Phosphorylation:T53 Theme:T11
+E33-1	Phosphorylation:T53 Site:T52
+E34-0	Regulation:T54 Theme:E32-0
+E35-1	Positive_regulation:T13 Site:T55
+E36-0	Positive_regulation:T13 Theme:T11
+E36-1	Positive_regulation:T13 Site:T56
+E37-0	Regulation:T57 Theme:E36-0
+E4-0	Positive_regulation:T17 Theme:E7-0
+E5-1	Phosphorylation:T18 Site:T19
+E7-0	Phosphorylation:T18 Theme:T4
+E7-1	Phosphorylation:T18 Site:T20
+E8-0	Negative_regulation:T21 Theme:E9-0
+E9-0	Phosphorylation:T23 Theme:T4
+E9-1	Phosphorylation:T23 Site:T22
+M1	Speculation E3
+M3-0	Negation E10-0
+M5-0	Negation E15-0
+M6	Speculation E21
+M7	Negation E23
+M8-0	Negation E34-0
+M9-0	Negation E4-0

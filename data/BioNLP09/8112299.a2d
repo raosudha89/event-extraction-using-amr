@@ -1,0 +1,28 @@
+*	Equiv T2 T3
+T9	Negative_regulation 40 50	inactivate
+T10	Entity 121 129	promoter
+T11	Positive_regulation 209 218	induction
+T12	Negative_regulation 263 274	inhibitable
+T13	Positive_regulation 448 456	required
+T14	Positive_regulation 474 484	activation
+T15	Entity 497 505	promoter
+T16	Positive_regulation 625 633	activate
+T17	Entity 661 666	IL-2A
+T18	Binding 674 679	binds
+T19	Positive_regulation 894 903	enhancing
+T20	Negative_regulation 904 916	inactivation
+E1	Negative_regulation:T9 Theme:T1
+E10	Negative_regulation:T20 Theme:T8
+E2-0	Positive_regulation:T11 Theme:T2
+E2-1	Positive_regulation:T11 Site:T10
+E3-0	Negative_regulation:T12 Theme:E2-0
+E4-0	Positive_regulation:T13 Theme:E5-0
+E5-0	Positive_regulation:T14 Theme:T4
+E5-1	Positive_regulation:T14 Site:T15
+E6-0	Positive_regulation:T16 Theme:T5
+E6-1	Positive_regulation:T16 Site:T17
+E7-0	Binding:T18 Theme:T5
+E7-1	Binding:T18 Theme:T7
+E7-2	Binding:T18 Site:T17
+E8-1	Binding:T18 Theme:T6
+E9	Positive_regulation:T19 Theme:E10

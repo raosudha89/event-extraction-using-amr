@@ -1,0 +1,58 @@
+*	Equiv T4 T5
+*	Equiv T9 T8
+*	Equiv T17 T18
+T46	Positive_regulation 325 332	induces
+T47	Gene_expression 337 347	expression
+T48	Positive_regulation 452 464	prerequisite
+T49	Binding 473 480	binding
+T50	Entity 518 536	RUNX binding sites
+T51	Negative_regulation 560 572	Inactivation
+T52	Positive_regulation 685 693	mediated
+T53	Negative_regulation 694 705	suppression
+T54	Negative_regulation 754 761	reduced
+T55	Gene_expression 762 772	expression
+T56	Negative_regulation 977 982	siRNA
+T57	Transcription 1162 1171	expressed
+T58	Localization 1286 1297	colocalized
+T59	Entity 1314 1325	T reg cells
+T60	Regulation 1392 1396	link
+T61	Positive_regulation 1409 1416	induced
+T62	Gene_expression 1423 1433	expression
+E1-0	Positive_regulation:T46 Theme:E2
+E10	Positive_regulation:T52 Theme:E11
+E11	Negative_regulation:T53 Theme:T17
+E12	Positive_regulation:T52 Theme:E13
+E13	Negative_regulation:T53 Theme:T20
+E14-1	Negative_regulation:T54 Cause:E9
+E15	Gene_expression:T55 Theme:T21
+E16-0	Negative_regulation:T54 Theme:E15
+E16-1	Negative_regulation:T54 Cause:E11
+E17-1	Negative_regulation:T54 Cause:E13
+E18	Negative_regulation:T56 Theme:T28
+E19	Negative_regulation:T56 Theme:T29
+E2	Gene_expression:T47 Theme:T10
+E20	Transcription:T57 Theme:T36
+E21	Transcription:T57 Theme:T37
+E22	Transcription:T57 Theme:T38
+E23-0	Localization:T58 Theme:T41
+E24-0	Localization:T58 Theme:T42
+E24-1	Localization:T58 ToLoc:T59
+E25-0-0	Regulation:T60 Theme:E26-0
+E25-1	Regulation:T60 Cause:T43
+E26-0	Positive_regulation:T61 Theme:E27
+E26-1	Positive_regulation:T61 Cause:T44
+E27	Gene_expression:T62 Theme:T45
+E3-0	Positive_regulation:T46 Theme:E4
+E3-1	Positive_regulation:T46 Cause:T9
+E4	Gene_expression:T47 Theme:T11
+E5-0	Positive_regulation:T48 Theme:E6-0
+E6-0	Binding:T49 Theme:T13
+E6-1	Binding:T49 Theme:T15
+E7-0	Positive_regulation:T48 Theme:E8-0
+E7-1	Positive_regulation:T48 Theme:E6-1
+E8-0	Binding:T49 Theme:T14
+E8-2	Binding:T49 Site:T50
+E9	Negative_regulation:T51 Theme:T17
+M1-0	Speculation E5-0
+M1-1	Speculation E7-1
+M2-0	Speculation E7-0

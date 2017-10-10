@@ -1,0 +1,55 @@
+T35	Positive_regulation 1336 1345	increased
+T36	Binding 1537 1545	ligation
+T37	Binding 1550 1567	heterodimerzation
+T38	Binding 1772 1780	ligation
+T39	Positive_regulation 1899 1903	lead
+T40	Phosphorylation 1911 1926	phosphorylation
+T32	Anaphora 1930 1948	the receptor Smads
+T33	Anaphora 1979 1991	The R- Smads
+T41	Binding 1997 2011	form complexes
+T42	Localization 2045 2057	translocated
+T43	Entity 2067 2074	nucleus
+T44	Gene_expression 2389 2399	expression
+T45	Positive_regulation 2427 2434	induced
+T46	Regulation 2493 2503	regulation
+T34	Anaphora 2507 2523	the target genes
+T47	Gene_expression 2610 2619	producing
+E1	Positive_regulation:T35 Theme:T13
+E11	Phosphorylation:T40 Theme:T22
+E15-0	Positive_regulation:T39 Theme:E11
+E15-1-1	Positive_regulation:T39 Cause:E8-1
+E16-1-0	Positive_regulation:T39 Cause:E6-0
+E16-1-1	Positive_regulation:T39 Cause:E9-1
+E17-1-1	Positive_regulation:T39 Cause:E4-1
+E18	Phosphorylation:T40 Theme:T23
+E19-0	Positive_regulation:T39 Theme:E18
+E2	Binding:T36 Theme:T14
+E25	Phosphorylation:T40 Theme:T24
+E26-1-1	Positive_regulation:T39 Cause:E5-1
+E27-1-1	Positive_regulation:T39 Cause:E6-1
+E28-1-1	Positive_regulation:T39 Cause:E7-1
+E3	Binding:T37 Theme:T14
+E30-0	Positive_regulation:T39 Theme:E25
+E31-0	Binding:T41 Theme:T22
+E32-0	Binding:T41 Theme:T23
+E32-1	Binding:T41 Theme:T25
+E33-0	Binding:T41 Theme:T24
+E34-0	Localization:T42 Theme:T22
+E34-1	Localization:T42 ToLoc:T43
+E35-0	Localization:T42 Theme:T23
+E36-0	Localization:T42 Theme:T24
+E37	Gene_expression:T44 Theme:T28
+E38-0	Positive_regulation:T45 Theme:E39
+E38-1	Positive_regulation:T45 Cause:E37
+E39	Regulation:T46 Theme:T29
+E4-1	Binding:T38 Theme:T16
+E40-0	Positive_regulation:T45 Theme:E41
+E41	Regulation:T46 Theme:T30
+E42	Gene_expression:T47 Theme:T31
+E5-1	Binding:T38 Theme:T17
+E6-0	Binding:T38 Theme:T15
+E6-1	Binding:T38 Theme:T18
+E7-1	Binding:T38 Theme:T19
+E8-1	Binding:T38 Theme:T20
+E9-1	Binding:T38 Theme:T21
+M1	Speculation E42

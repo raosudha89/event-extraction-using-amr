@@ -1,0 +1,23 @@
+*	Equiv T4 T5
+T13	Regulation 12 20	regulate
+T14	Transcription 27 40	transcription
+T15	Gene_expression 160 169	expressed
+T16	Regulation 318 328	regulation
+T12	Anaphora 332 355	this restriction factor
+T17	Entity 713 721	promoter
+T18	Positive_regulation 730 739	inducible
+T19	Entity 1301 1307	GC-box
+T20	Binding 1322 1329	binding
+E1-0	Regulation:T13 Theme:E2
+E1-1	Regulation:T13 Cause:T1
+E2	Transcription:T14 Theme:T3
+E3-1	Regulation:T13 Cause:T2
+E4	Gene_expression:T15 Theme:T4
+E5	Regulation:T16 Theme:T4
+E6-0	Positive_regulation:T18 Theme:T8
+E6-1	Positive_regulation:T18 Site:T17
+E7-0	Binding:T20 Theme:T8
+E7-1	Binding:T20 Theme:T10
+E8-1	Binding:T20 Theme:T11
+E8-2	Binding:T20 Site:T19
+M1-0	Negation E6-0

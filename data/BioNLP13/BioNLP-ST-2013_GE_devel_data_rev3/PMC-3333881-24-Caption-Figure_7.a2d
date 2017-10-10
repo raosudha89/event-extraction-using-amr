@@ -1,0 +1,30 @@
+T9	Transcription 20 35	transcriptional
+T10	Positive_regulation 36 46	activation
+T11	Negative_regulation 68 75	absence
+T12	Binding 98 106	occupies
+T13	Entity 111 129	NF-kappaB enhancer
+T14	Binding 168 177	interacts
+T15	Positive_regulation 270 279	activates
+T16	Gene_expression 295 305	expression
+T17	Negative_regulation 309 317	removing
+T18	Positive_regulation 382 392	increasing
+T19	Binding 397 404	binding
+T20	Entity 437 455	NF-kappaB enhancer
+E1	Transcription:T9 Theme:T1
+E10-0	Binding:T19 Theme:T7
+E10-1	Binding:T19 Site:T20
+E2-0	Positive_regulation:T10 Theme:E1
+E2-1	Positive_regulation:T10 Cause:T2
+E3	Negative_regulation:T11 Theme:T3
+E4-0	Binding:T12 Theme:T4
+E4-1	Binding:T12 Theme:T5
+E4-2	Binding:T12 Site:T13
+E5	Binding:T14 Theme:T4
+E6-0	Positive_regulation:T15 Theme:E7
+E6-1	Positive_regulation:T15 Cause:T6
+E7	Gene_expression:T16 Theme:T7
+E8-0	Negative_regulation:T17 Theme:T8
+E8-1	Negative_regulation:T17 Cause:T6
+E9-0-0	Positive_regulation:T18 Theme:E10-0
+E9-1	Positive_regulation:T18 Cause:T6
+M1	Speculation E5

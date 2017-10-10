@@ -1,0 +1,42 @@
+T21	Binding 17 28	interaction
+T22	Positive_regulation 421 430	activated
+T23	Binding 450 454	bind
+T24	Phosphorylation 462 475	phosphorylate
+T25	Gene_expression 515 524	expressed
+T26	Binding 542 552	interacted
+T27	Binding 648 659	interaction
+T28	Binding 791 802	association
+T29	Positive_regulation 815 824	augmented
+T30	Positive_regulation 877 886	following
+T31	Entity 912 918	serine
+T32	Phosphorylation 919 934	phosphorylation
+T33	Binding 983 994	interaction
+E1-0	Binding:T21 Theme:T1
+E1-1	Binding:T21 Theme:T2
+E10-0-0	Positive_regulation:T30 Theme:E11-0
+E10-1-0	Positive_regulation:T30 Cause:E9-0
+E10-1-1	Positive_regulation:T30 Cause:E9-1
+E11-0	Phosphorylation:T32 Theme:T18
+E11-1	Phosphorylation:T32 Site:T31
+E12-0	Binding:T33 Theme:T19
+E12-1	Binding:T33 Theme:T20
+E2	Positive_regulation:T22 Theme:T10
+E3-0	Binding:T23 Theme:T10
+E3-1	Binding:T23 Theme:T11
+E4	Phosphorylation:T24 Theme:T11
+E5	Gene_expression:T25 Theme:T12
+E6-0	Binding:T26 Theme:T12
+E6-1	Binding:T26 Theme:T13
+E7-0	Binding:T27 Theme:T14
+E7-1	Binding:T27 Theme:T15
+E8-0	Binding:T28 Theme:T16
+E8-1	Binding:T28 Theme:T17
+E9-0	Positive_regulation:T29 Theme:E8-0
+E9-1	Positive_regulation:T29 Theme:E8-1
+M1-0	Speculation E1-0
+M1-1	Speculation E1-1
+M2-0	Speculation E3-0
+M2-1	Speculation E3-1
+M3	Speculation E4
+M4-0	Negation E12-0
+M4-1	Negation E12-1

@@ -1,0 +1,70 @@
+T25	Regulation 4 8	role
+T26	Regulation 54 64	regulation
+T27	Regulation 79 90	alterations
+T28	Negative_regulation 168 177	inhibitor
+T29	Phosphorylation 249 264	Phosphorylation
+T30	Positive_regulation 249 264	Phosphorylation
+T31	Negative_regulation 331 339	prevents
+T32	Binding 344 355	interaction
+T33	Positive_regulation 410 418	promotes
+T34	Gene_expression 423 433	expression
+T35	Regulation 499 503	role
+T36	Negative_regulation 579 583	loss
+T37	Gene_expression 779 787	negative
+T38	Positive_regulation 936 946	regulation
+T39	Transcription 1054 1064	expression
+T40	Gene_expression 1076 1086	expression
+T41	Gene_expression 1231 1238	express
+T42	Positive_regulation 1329 1343	overexpression
+T43	Gene_expression 1329 1343	overexpression
+T44	Positive_regulation 1351 1364	reestablished
+T45	Regulation 1376 1386	regulation
+T46	Positive_regulation 1425 1433	increase
+T47	Negative_regulation 1441 1465	underphosphorylated form
+T48	Phosphorylation 1441 1465	underphosphorylated form
+T49	Negative_regulation 1496 1504	decrease
+T50	Binding 1517 1522	bound
+T51	Entity 1526 1535	its motif
+T52	Positive_regulation 1602 1621	causes upregulation
+T53	Regulation 1602 1608	causes
+E1-0	Regulation:T25 Theme:E2
+E1-1	Regulation:T25 Cause:T1
+E10	Binding:T32 Theme:T7
+E11-0	Positive_regulation:T33 Theme:E12
+E11-1-0	Positive_regulation:T33 Cause:E9-0
+E12	Gene_expression:T34 Theme:T10
+E13-0-0	Regulation:T35 Theme:E9-0
+E13-1	Regulation:T35 Cause:T11
+E14	Negative_regulation:T36 Theme:T11
+E15	Gene_expression:T37 Theme:T14
+E16	Positive_regulation:T38 Theme:T15
+E17	Transcription:T39 Theme:T16
+E18	Gene_expression:T40 Theme:T17
+E19	Gene_expression:T41 Theme:T18
+E2	Regulation:T26 Theme:T2
+E20	Positive_regulation:T42 Theme:E21
+E21	Gene_expression:T43 Theme:T19
+E22-0	Positive_regulation:T44 Theme:E23
+E22-1	Positive_regulation:T44 Cause:E20
+E23	Regulation:T45 Theme:T20
+E24	Positive_regulation:T46 Theme:E25
+E25	Negative_regulation:T47 Theme:T21
+E26	Phosphorylation:T48 Theme:T21
+E27-0	Negative_regulation:T49 Theme:E28-0
+E28-0	Binding:T50 Theme:T22
+E28-1	Binding:T50 Site:T51
+E29	Positive_regulation:T52 Theme:T20
+E3	Regulation:T27 Theme:T3
+E30-0	Regulation:T53 Theme:T24
+E30-1	Regulation:T53 Cause:T23
+E4-0	Negative_regulation:T28 Theme:T6
+E5-0	Negative_regulation:T28 Theme:T5
+E5-1	Negative_regulation:T28 Cause:T4
+E6	Phosphorylation:T29 Theme:T7
+E7-0	Positive_regulation:T30 Theme:E6
+E7-1	Positive_regulation:T30 Cause:T8
+E8-1	Positive_regulation:T30 Cause:T9
+E9-0	Negative_regulation:T31 Theme:E10
+E9-1	Negative_regulation:T31 Cause:E6
+M1-0	Speculation E13-0-0
+M2	Negation E15

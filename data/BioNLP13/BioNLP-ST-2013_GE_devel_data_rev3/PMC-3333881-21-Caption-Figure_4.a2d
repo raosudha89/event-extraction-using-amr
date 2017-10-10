@@ -1,0 +1,10 @@
+T28	Binding 4 14	associates
+T29	Positive_regulation 24 34	increasing
+T27	Anaphora 35 38	its
+T30	Binding 52 59	binding
+E1-0	Binding:T28 Theme:T1
+E1-1	Binding:T28 Theme:T2
+E2-0	Positive_regulation:T29 Theme:E3
+E2-1-0	Positive_regulation:T29 Cause:E1-0
+E2-1-1	Positive_regulation:T29 Cause:E1-1
+E3	Binding:T30 Theme:T2

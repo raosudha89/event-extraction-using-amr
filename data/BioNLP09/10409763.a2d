@@ -1,0 +1,20 @@
+*	Equiv T4 T5
+T26	Binding 61 68	engages
+T27	Binding 326 336	associates
+T28	Binding 1044 1052	interact
+T29	Binding 1113 1123	associates
+T30	Binding 1266 1277	association
+E1-0	Binding:T26 Theme:T1
+E1-1	Binding:T26 Theme:T2
+E3-0	Binding:T27 Theme:T3
+E3-1	Binding:T27 Theme:T5
+E4	Binding:T28 Theme:T20
+E5-0	Binding:T28 Theme:T19
+E5-1	Binding:T28 Theme:T25
+E6	Binding:T29 Theme:T19
+E7	Binding:T29 Theme:T20
+E8-1	Binding:T30 Theme:T22
+E9	Binding:T30 Theme:T23
+M1-0	Negation E5-0
+M1-1	Negation E5-1
+M2	Negation E6

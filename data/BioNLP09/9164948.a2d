@@ -1,0 +1,29 @@
+T12	Negative_regulation 857 864	failure
+T13	Localization 872 885	translocation
+T14	Entity 893 900	nucleus
+T15	Positive_regulation 902 907	occur
+T16	Negative_regulation 945 953	decrease
+T17	Positive_regulation 987 997	paralleled
+T18	Negative_regulation 1004 1020	impaired ability
+T19	Gene_expression 1024 1031	produce
+T20	Positive_regulation 1094 1102	followed
+T21	Negative_regulation 1119 1123	loss
+E1-0	Negative_regulation:T12 Theme:E2-0
+E10	Gene_expression:T19 Theme:T9
+E12-1	Positive_regulation:T20 Cause:E7
+E14-0	Positive_regulation:T20 Theme:E17
+E14-1-0	Positive_regulation:T20 Cause:E1-0
+E15-0	Positive_regulation:T20 Theme:E18
+E16-1	Positive_regulation:T20 Cause:E8
+E17	Negative_regulation:T21 Theme:T11
+E18	Negative_regulation:T21 Theme:T10
+E2-0	Localization:T13 Theme:T7
+E2-1	Localization:T13 ToLoc:T14
+E3-0	Positive_regulation:T15 Theme:E1-0
+E4	Negative_regulation:T16 Theme:T5
+E5-0	Positive_regulation:T17 Theme:E8
+E6-0	Positive_regulation:T17 Theme:E7
+E6-1-0	Positive_regulation:T17 Cause:E1-0
+E7	Negative_regulation:T18 Theme:E10
+E8	Negative_regulation:T18 Theme:E9
+E9	Gene_expression:T19 Theme:T8

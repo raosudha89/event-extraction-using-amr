@@ -1,0 +1,33 @@
+T45	Positive_regulation 638 645	induced
+T46	Positive_regulation 646 656	activation
+T47	Phosphorylation 722 737	phosphorylation
+T48	Negative_regulation 780 790	detectable
+T49	Negative_regulation 801 805	null
+T50	Negative_regulation 2438 2442	loss
+T51	Positive_regulation 3367 3393	expression of an activated
+T52	Phosphorylation 3988 4007	autophosphorylation
+T53	Entity 4019 4023	S916
+T54	Positive_regulation 4029 4037	observed
+E1	Positive_regulation:T45 Theme:E2
+E10-0	Negative_regulation:T48 Theme:E1
+E11	Negative_regulation:T49 Theme:T12
+E13-0	Negative_regulation:T48 Theme:E3
+E14-0	Negative_regulation:T48 Theme:E5
+E14-1	Negative_regulation:T48 Cause:E9
+E15-1	Negative_regulation:T48 Cause:E11
+E16	Negative_regulation:T50 Theme:T33
+E17	Negative_regulation:T50 Theme:T34
+E18	Positive_regulation:T51 Theme:T37
+E19-0	Phosphorylation:T52 Theme:T43
+E19-1	Phosphorylation:T52 Site:T53
+E2	Positive_regulation:T46 Theme:T8
+E20-0	Positive_regulation:T54 Theme:E19-0
+E3	Positive_regulation:T45 Theme:E4
+E4	Positive_regulation:T46 Theme:T9
+E5	Positive_regulation:T45 Theme:E6
+E6	Positive_regulation:T46 Theme:E7
+E7	Phosphorylation:T47 Theme:T10
+E9	Negative_regulation:T49 Theme:T11
+M1-0	Negation E10-0
+M3-0	Negation E13-0
+M5-0	Negation E14-0
